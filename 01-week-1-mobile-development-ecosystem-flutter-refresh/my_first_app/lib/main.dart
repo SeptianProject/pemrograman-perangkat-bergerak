@@ -129,11 +129,36 @@ class ProfileScreen extends StatelessWidget {
                         label: 'Semester / TA',
                         value: 'Semester 3 (2026/2027)',
                       ),
+                      Divider(height: 24, color: Color(0xFFF1F5F9)),
+                      _InfoRow(
+                        icon: Icons.calendar_today_rounded,
+                        label: 'Akun Github',
+                        value: 'github.com/SeptianProject',
+                      ),
+                      Divider(height: 24, color: Color(0xFFF1F5F9)),
+                      _InfoRow(
+                        icon: Icons.calendar_today_rounded,
+                        label: 'Minat Rekayasa',
+                        value:
+                            'Web Development, Mobile Development, Full Stack Development',
+                      ),
                     ],
                   ),
                 ),
               ),
-              const SizedBox(height: 24),
+              const SizedBox(height: 12),
+              ElevatedButton.icon(
+                onPressed: () {
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    const SnackBar(
+                      content: Text('github.com/SeptianProject'),
+                      duration: Duration(seconds: 3),
+                    ),
+                  );
+                },
+                label: const Text('Lihat Profil GitHub'),
+              ),
+              const SizedBox(height: 12),
               // ── Latihan 1: Fungsi dengan Tipe Data Eksplisit ──────────────────────────
               ElevatedButton(
                 style: ElevatedButton.styleFrom(
@@ -145,9 +170,7 @@ class ProfileScreen extends StatelessWidget {
                   ),
                 ),
                 onPressed: () {
-                  // Panggil fungsi hitungLuasPersegiPanjang dari latihan_mandiri_01.dart
                   double luas = hitungLuasPersegiPanjang(15, 7);
-                  // Tampilkan hasilnya di dialog
                   showDialog(
                     context: context,
                     builder: (context) => AlertDialog(
@@ -164,7 +187,7 @@ class ProfileScreen extends StatelessWidget {
                 },
                 child: const Text('Hitung Luas Persegi Panjang 2'),
               ),
-              const SizedBox(height: 24),
+              const SizedBox(height: 12),
               // ── Latihan 2 - Classs dengan Null Safety ─────────────────────────
               ElevatedButton(
                 style: ElevatedButton.styleFrom(
