@@ -8,13 +8,13 @@ Praktikum pertama ini mengajarkan saya bagaimana cara saya untuk adaptasi yang s
 
 ## Screenshots
 
-![Flutter --version](../screenshots/image-1.png)
-![Flutter doctor -v](../screenshots/image-2.png)
-![Flutter doctor -v](../screenshots/image-3.png)
-![Print output excercise](../screenshots/image-4.png)
-![Main Layout](../screenshots/image-5.png)
-![Answer Luas Persegi Panjang](../screenshots/image-6.png)
-![Profile Information](../screenshots/image-7.png)
+![Flutter --version](screenshots/image-1.png)
+![Flutter doctor -v](screenshots/image-2.png)
+![Flutter doctor -v](screenshots/image-3.png)
+![Print output excercise](screenshots/image-4.png)
+![Main Layout](screenshots/image-5.png)
+![Answer Luas Persegi Panjang](screenshots/image-6.png)
+![Profile Information](screenshots/image-7.png)
 
 ## Kendala Setup
 
