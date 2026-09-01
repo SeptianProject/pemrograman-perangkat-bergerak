@@ -131,13 +131,13 @@ class ProfileScreen extends StatelessWidget {
                       ),
                       Divider(height: 24, color: Color(0xFFF1F5F9)),
                       _InfoRow(
-                        icon: Icons.calendar_today_rounded,
+                        icon: Icons.device_hub,
                         label: 'Akun Github',
                         value: 'github.com/SeptianProject',
                       ),
                       Divider(height: 24, color: Color(0xFFF1F5F9)),
                       _InfoRow(
-                        icon: Icons.calendar_today_rounded,
+                        icon: Icons.engineering,
                         label: 'Minat Rekayasa',
                         value:
                             'Web Development, Mobile Development, Full Stack Development',
